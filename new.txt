@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Basic Webpage</h1>
+    </header>
+
+    <div class="container">
+        <h2>About Us</h2>
+        <p>This is a simple webpage created with HTML. It includes a header, some content, an image, and a footer. You can customize and add more content to create your webpage.</p>
+
+        <h2>Image Example</h2>
+        <img src="https://via.placeholder.com/400x200" alt="Sample Image">
+    </div>
+
+    <div class="footer">
+        &copy; 2023 My Basic Webpage
+    </div>
+</body>
+</html>
